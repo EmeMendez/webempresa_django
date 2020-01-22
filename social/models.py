@@ -10,7 +10,7 @@ class Link(models.Model):
 
     class Meta:
         verbose_name = "enlace"
-        verbose_name_plural = "enlacescategorias"
+        verbose_name_plural = "Enlaces"
         ordering = ["name"]
     
     def __str__(self):
